@@ -6,6 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favico.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favico.ico" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -410,7 +416,8 @@
           <div class="col-sm">
             <div class="stat">
               <div class="circle">
-                <p>15M</p>
+                <p>15</p>
+                <span>M</span>
               </div>
               <h3>Deals</h3>
             </div>
@@ -695,5 +702,15 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".circle p").counterUp({
+          delay: 10,
+          time: 2000,
+        });
+      });
+    </script>
   </body>
 </html>

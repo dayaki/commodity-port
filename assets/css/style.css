@@ -388,7 +388,8 @@ h1.heading-title {
   justify-content: center;
   align-items: center;
 }
-.stats .stat .circle p {
+.stats .stat .circle p,
+.stats .stat .circle p + span {
   margin: 0;
   font-style: normal;
   font-weight: 600;
@@ -741,7 +742,7 @@ footer .footer-nav .nav-link {
 /* MEDIA QUERY  */
 @media (min-width: 1200px) {
   .container {
-    max-width: 1300px;
+    /* max-width: 1300px; */
     /* background: pink; */
   }
 }
