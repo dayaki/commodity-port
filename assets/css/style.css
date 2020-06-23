@@ -388,7 +388,8 @@ h1.heading-title {
   justify-content: center;
   align-items: center;
 }
-.stats .stat .circle p {
+.stats .stat .circle p,
+.stats .stat .circle p + span {
   margin: 0;
   font-style: normal;
   font-weight: 600;
