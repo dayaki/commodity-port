@@ -1,0 +1,171 @@
+/* 
+
+    Small devices (landscape phones, 576px and up) 
+
+*/
+@media (min-width: 576px) {
+}
+
+/* 
+
+    Medium devices (tablets, 768px and up) 
+
+*/
+@media (min-width: 768px) {
+  .home-header {
+    height: auto;
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 55%;
+  }
+  .benefits .imagelink {
+    height: 15rem;
+  }
+  .stats {
+    padding: 1.875rem 0rem;
+  }
+  footer ul.nav li {
+    margin-right: 0.1rem;
+  }
+  footer ul.nav li .nav-link {
+    padding: 0.5rem 0.5rem;
+  }
+  footer .bg {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 572px;
+    z-index: 10;
+    background: transparent url("/assets/images/footer-bg.png") no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    background-size: 100%;
+  }
+}
+
+/* 
+
+    Large devices (desktops, 992px and up) 
+
+*/
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home-header {
+    width: 100%;
+    height: 600px;
+    padding-top: 1.5rem;
+    background-size: contain;
+    background-position: top right;
+  }
+  .home-header .home-welcome {
+    width: 30rem;
+  }
+  .home-welcome .btns {
+    width: 23rem;
+  }
+  .stats {
+    margin-top: 3rem;
+  }
+  .card .card-right .amount {
+    margin: 0.625rem 0px;
+  }
+  .card .card-right .probar {
+    bottom: 0.2rem;
+  }
+  .card .card-right p.returns {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0.625rem;
+  }
+  .testimony .txt {
+    width: 80%;
+  }
+  .testimony .txt a {
+    width: 13rem;
+    height: 3.35rem;
+    margin: 2rem 0rem;
+  }
+  /* 
+
+    About us
+
+*/
+  .banner {
+    width: 100%;
+    height: 15.625rem;
+  }
+  .banner h1 {
+    font-size: 3.125rem;
+  }
+  body.about section.text {
+    background: #fff url("/assets/images/about-text-bg.png") no-repeat;
+    background-size: contain;
+    background-position: 0% 100%;
+    margin-top: 6.25rem;
+  }
+  .who-we-are {
+    margin-top: 7.5rem;
+    position: relative;
+    /* padding-top: 3.125rem; */
+    width: 100%;
+    height: 31.375rem;
+  }
+  .who-we-are h1.heading-title {
+    /* padding-top: 3.125rem; */
+    margin-bottom: 2rem;
+  }
+  .who-we-are .cards {
+    position: absolute;
+    top: -11.5rem;
+  }
+  .who-we-are .card .card-title {
+    margin: 0rem;
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #000;
+  }
+  .who-we-are .cards .divider {
+    background-color: #6da8ee;
+    width: 2.5rem;
+    height: 0.3125rem;
+    margin: 0.3125rem 0rem;
+  }
+  .who-we-are .card p {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    margin: 1.3rem 0rem;
+  }
+  .who-we-are .bg {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 572px;
+    z-index: 10;
+    background: transparent url("/assets/images/whoweare.png") no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    background-size: 100%;
+  }
+  .stats-wrapper {
+    margin-top: 5rem;
+  }
+
+  /* Footer */
+  footer .main-footer {
+    margin-top: 5.5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    z-index: 100;
+  }
+  footer .footer-logo {
+    text-align: left;
+  }
+}
